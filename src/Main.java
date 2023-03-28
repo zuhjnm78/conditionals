@@ -27,6 +27,7 @@ public class Main {
             System.out.println("Если возраст человека равен " + age2 +
                     ", то он совершеннолетий.");
         }
+
     }
 
     public static void task2() {
@@ -60,7 +61,7 @@ public class Main {
         }
         int speed2 = 50;
         if (speed2 < 60) {
-            System.out.println("Если скорость" + speed2 +
+            System.out.println("Если скорость " + speed2 +
                     " то можно ездить спокойно.");
         }
     }
@@ -81,28 +82,63 @@ public class Main {
         } else if (age3 > 18 && age3 < 24) {
 
             System.out.println("Если человеку " + age3 + " лет, то ему нужно ходить в университет.");
-        }
-
-        else
+        } else
             System.out.println("Если человеку больше" + age3 + " лет, то ему пора ходить на работу.");
     }
 
 
-                    public static void task5 () {
+    public static void task5() {
 
-                    System.out.println("Задача 5");
+        System.out.println("Задача 5");
 
-                    // Пишем код для задачи 5
+        // Пишем код для задачи 5
 
-                        int age4 = 8;
-                        if(age4 < 5 ) {
-                            System.out.println("Если ребенку меньше 5 лет, то он не может кататься на аттракционе.");
-                        } else if (age4 >=5 && age4 <14) {
-                            System.out.println("Если ребенку " + age4 +" лет, то он может кататься только в сопровождении взрослого. " +
-                                    "Если взрослого нет, то кататься нельзя.");
-                        } else
-                            System.out.println("Если ребенок старше 14 лет, то он может кататься без сопровождения взрослого.");
+        int age4 = 8;
+        if (age4 < 5) {
+            System.out.println("Если ребенку меньше 5 лет, то он не может кататься на аттракционе.");
+        } else if (age4 >= 5 && age4 < 14) {
+            System.out.println("Если ребенку " + age4 + " лет, то он может кататься только в сопровождении взрослого. " +
+                    "Если взрослого нет, то кататься нельзя.");
+        } else
+            System.out.println("Если ребенок старше 14 лет, то он может кататься без сопровождения взрослого.");
 
 
-                    }
+    }
+
+
+    public static void task6 () {
+
+        System.out.println("Задача 6");
+
+        // Пишем код для задачи 6
+
+        int people = 55;
+        if(people <= 60 ) {
+            System.out.println("У Вас сидячее место в вагоне.");
+        } else if (people > 60 && people <= 102) {
+            System.out.println("У Вас стоячее место в вагоне.");
+        } else
+            System.out.println("Извините, вагон уже полностью занят.");
+
+
+    }
+
+    public static void task7 () {
+
+        System.out.println("Задача 7");
+
+        // Пишем код для задачи 7
+
+        int one = 55;
+        int two = 72;
+        int three = 28;
+        if(one > two && one > three ) {
+            System.out.println(one + " Большее из  трех  чисел.");
+        } else if (two > one && two > three) {
+            System.out.println(two + "Большее из  трех  чисел.");
+        } else
+            System.out.println(three + "Большее из  трех  чисел.");
+
+
+    }
             }
